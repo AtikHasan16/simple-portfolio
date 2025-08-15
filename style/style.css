@@ -35,7 +35,6 @@ body {
   border: none;
   border-radius: 10px;
   transition: 0.5s;
-  font-size: 18px;
 }
 .btn-primary:hover {
   border: 1px solid var(--text-color-3);
@@ -55,7 +54,7 @@ body {
   gap: 40px;
   font-weight: 600;
   color: var(--text-color-1);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: sans-serif;
 }
 
 .nav-list > .nav-item {
@@ -90,6 +89,28 @@ img {
   width: 400px;
 }
 
+/* Second hero */
+
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.second-text {
+  text-align: right;
+}
+.about-title {
+  font-size: 50px;
+  color: var(--text-color-4);
+}
+
+.about-details {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
 /* latest-project section */
 /* Work-inquiry section */
 /* stay-connected section */
