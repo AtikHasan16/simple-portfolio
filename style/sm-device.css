@@ -1,2 +1,20 @@
 @media screen and (max-width: 570px) {
+  body {
+    margin: 10px;
+  }
+  .nav-list {
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  .first-row,
+  .second-row {
+    flex-direction: column;
+    margin: 50px 0 50px 0;
+    gap: 50px;
+  }
+
+  img {
+    display: none;
+  }
 }
