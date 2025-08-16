@@ -35,6 +35,7 @@ body {
   border: none;
   border-radius: 10px;
   transition: 0.5s;
+  cursor: pointer;
 }
 .btn-primary:hover {
   border: 1px solid var(--text-color-3);
@@ -87,7 +88,7 @@ body {
   margin-bottom: 20px;
 }
 
-img {
+.hero img {
   width: 200px;
   animation-name: shapes;
   animation-duration: 15s;
@@ -119,5 +120,36 @@ img {
   font-weight: 600;
 }
 /* latest-project section */
+.latest-work{
+  margin-bottom: 100px;
+}
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.latest-title {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin: 60px;
+}
+
+.project-card {
+  padding: 20px;
+  width: 350px;
+  height: 370px;
+  box-shadow: 1px 1px 10px rgb(204, 204, 204);
+  border-radius: 20px;
+  text-align: center;
+}
+.project-card img {
+  width: 310px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(204, 204, 204);
+}
 /* Work-inquiry section */
 /* stay-connected section */
