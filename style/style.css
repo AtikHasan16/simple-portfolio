@@ -14,7 +14,16 @@
   transition: 1s;
 }
 
-body {
+header {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+main {
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  padding: 100px 0 100px 0;
+}
+footer {
   max-width: 1170px;
   margin: 0 auto;
 }
@@ -120,8 +129,10 @@ body {
   font-weight: 600;
 }
 /* latest-project section */
-.latest-work{
+.latest-work {
   margin-bottom: 100px;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 .project-container {
   display: flex;
@@ -144,6 +155,7 @@ body {
   box-shadow: 1px 1px 10px rgb(204, 204, 204);
   border-radius: 20px;
   text-align: center;
+  background-color: white;
 }
 .project-card img {
   width: 310px;
@@ -152,4 +164,31 @@ body {
   border: 1px solid rgb(204, 204, 204);
 }
 /* Work-inquiry section */
+.work-inquiry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 100px;
+  padding: 80px 60px;
+  border-radius: 30px;
+  background: var(
+    --Linear,
+    linear-gradient(
+      10.49deg,
+      rgba(110, 31, 234, 1),
+      rgba(82, 88, 229, 1) 18%,
+      rgba(53, 147, 224, 1) 40%,
+      rgba(30, 194, 219, 1) 59%,
+      rgba(14, 227, 216, 1) 76%,
+      rgba(4, 248, 215, 1) 91%,
+      rgba(0, 255, 214, 1) 100%
+    )
+  );
+}
+.work-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 5px;
+}
 /* stay-connected section */
